@@ -18,7 +18,7 @@
 
 # The BDD_feature directory contains individual markdown files for each CRUD operation as well as edge cases: create, read, update, and delete. These files provide detailed test cases for each operation, covering various scenarios and validations.
 
-# The Selenium_script_test_cases directory includes a markdown file that outlines the test cases derived from BDD into actual selenium webdriver scripts. These test cases explore the system's behavior in extreme and boundary scenarios to ensure robustness and reliability.
+# The Selenium_script_test_cases directory includes a markdown file that outlines the test cases derived from BDD into actual selenium webdriver scripts. These test cases explore the site's behavior in extreme and boundary scenarios to ensure robustness and reliability for the website "https://content-providers.herokuapp.com/".
 
 # The bug_report directory contains a bug report for another website. The report highlights a specific issue identified during testing and provides comprehensive details, including steps to reproduce, expected behavior, and observed results.
 
