@@ -39,7 +39,7 @@ class ContentProviderCreation(unittest.TestCase):
 
         # Verify that content is successfully created and redirected to course list page
         self.assertEqual(driver.current_url, "https://content-providers.herokuapp.com/")
-        create_msg= driver.find_element_by_xpath("//div/div[1]">
+        create_msg= driver.find_element_by_xpath("//div/div[1]")
         self.assertequal(create_msg, "Content was successfully created.")
         
         # Verify that the newly created course is listed
