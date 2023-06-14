@@ -150,7 +150,7 @@
 								}
 							}
 						},
-						"url": "{{url}}createWithArray",
+						"url": "{{url_user}}createWithArray",
 						"description": "This request creates a new user. It runs as many times as the number of elements in the data array.\n\nThe pre-request script sets the current user information in a variable and then uses that variable in the request body.\n\nThe test script takes care of storing the response and branching the execution based on the success of the request."
 					},
 					"response": []
@@ -335,7 +335,7 @@
 								}
 							}
 						},
-						"url": "{{url}}alpha1",
+						"url": "{{url_user}}alpha1",
 						"description": "If all the users were created successfully, then this request reports the successful results.\n\nYou can also use the [Slack API](https://www.postman.com/slackhq/workspace/slack-api/collection/13509546-993e3b18-d277-4189-8ce5-af45df38e336), [Twilio API](https://postman.com/twilio/workspace/twilio-api/collection/12503610-194919ce-e80b-44da-8eec-45ea8e74cdfb?ctx=documentation), or the [MessageBird API](https://www.postman.com/messagebird-official/workspace/messagebird-official/collection/7989812-9fcde03c-9cfb-4293-95ea-81f53d244e75) to get notified in case of success or failure."
 					},
 					"response": []
@@ -375,45 +375,45 @@
 	],
 	"variable": [
 		{
-			"id": "5c98ac77-a86d-4e10-9197-397ff8d46819",
+			"id": "69d1b1fe-6f37-4b0d-a636-d94880413c58",
 			"key": "users",
 			"value": "[{\"username\": \"flash\",\"name\": \"Barry Allen\",\"role\": \"Superhero\"},{\"username\": \"wonder_woman\",\"name\": \"Diana Prince\",\"role\":\"Superhero\"},{\"username\": \"batman\",\"name\": \"Bruce Wayne\",\"role\": \"Superhero\"}]"
 		},
 		{
-			"id": "890811c7-d7cb-481f-ab40-2773ddc1bbd4",
+			"id": "8ea70e69-3e01-4cc0-aac4-859f0287aa45",
 			"key": "results",
 			"value": "[]",
 			"type": "string"
 		},
 		{
-			"id": "b9586f3d-9e06-4380-b3f0-0f5633c59db2",
+			"id": "411f8f61-4f56-459d-9c58-1f80eea9b9b8",
 			"key": "successAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "03a6e860-3b01-42e4-a5b1-408e0fe864ce",
+			"id": "91c80f62-d97c-4c5b-8f59-aebfe3441f2a",
 			"key": "failureAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "158be990-506f-42a4-b228-c30dc8628e52",
+			"id": "8c2fa3a7-314e-493f-b7e9-9500280a4b93",
 			"key": "idx",
 			"value": "0"
 		},
 		{
-			"id": "b506214d-8bba-42d4-a74c-47f4b11986d2",
+			"id": "917bddb7-b643-4652-bdd1-87ea7f7c70ee",
 			"key": "username",
 			"value": ""
 		},
 		{
-			"id": "bbd11090-0deb-47c9-8fbf-29cd8b7eec69",
+			"id": "3071627a-8355-496f-ad58-0f5a20646082",
 			"key": "name",
 			"value": ""
 		},
 		{
-			"id": "ea486f7a-6584-49aa-a8e2-8312077063e2",
+			"id": "54afeea5-5289-4bcb-adc3-17a042002df0",
 			"key": "role",
 			"value": ""
 		}
