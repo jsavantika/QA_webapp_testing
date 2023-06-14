@@ -10,7 +10,7 @@
 			"name": "Pet",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Get pet info",
 					"id": "b1c1c671-1af5-43ea-a023-adbbbe6deebf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -375,45 +375,45 @@
 	],
 	"variable": [
 		{
-			"id": "0c9145fc-ebe6-4860-91a2-5ddf29465f4d",
+			"id": "40f7cdaf-4375-41ea-bc1d-f5a67885c71b",
 			"key": "users",
 			"value": "[{\"username\": \"flash\",\"name\": \"Barry Allen\",\"role\": \"Superhero\"},{\"username\": \"wonder_woman\",\"name\": \"Diana Prince\",\"role\":\"Superhero\"},{\"username\": \"batman\",\"name\": \"Bruce Wayne\",\"role\": \"Superhero\"}]"
 		},
 		{
-			"id": "33dccf9c-b83c-440c-b235-90166a4fbe1f",
+			"id": "9f56938a-cc18-43d5-aa9d-c1d65223f6e3",
 			"key": "results",
 			"value": "[]",
 			"type": "string"
 		},
 		{
-			"id": "68f47de7-deaa-4d2d-a0b9-aa6a054f9e99",
+			"id": "f09d70aa-7772-485c-869b-627e4e8d6843",
 			"key": "successAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "7c39ab18-aad5-434d-b657-ef8270ccb82a",
+			"id": "6226dcca-e956-4855-8895-0adaf7308fbc",
 			"key": "failureAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "b0cdecf0-d5d7-44f3-a0bc-25ea16876867",
+			"id": "17f334e2-50a9-4d5e-aa12-c3a9517e943a",
 			"key": "idx",
 			"value": "0"
 		},
 		{
-			"id": "9c750fdd-282a-4a01-8db8-5ac0fd45776b",
+			"id": "6f73be93-c9dd-41a7-b259-dca3dc1b2b3d",
 			"key": "username",
 			"value": ""
 		},
 		{
-			"id": "03e90669-5879-4ca3-8f3e-98a8cf4a0ea9",
+			"id": "a98a3e57-080a-4692-bf3c-f7f07259247a",
 			"key": "name",
 			"value": ""
 		},
 		{
-			"id": "7936a628-e485-49e8-a9ca-5dbc323f445c",
+			"id": "9090d545-d2d0-4e1b-aba7-334fd2d6aeff",
 			"key": "role",
 			"value": ""
 		}
