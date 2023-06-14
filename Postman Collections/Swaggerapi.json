@@ -10,7 +10,7 @@
 			"name": "Pet",
 			"item": [
 				{
-					"name": "Get pet info",
+					"name": "New Request",
 					"id": "b1c1c671-1af5-43ea-a023-adbbbe6deebf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -256,7 +256,7 @@
 								}
 							}
 						},
-						"url": "{{url_user}}alpha1"
+						"url": "{{url}}alpha1"
 					},
 					"response": []
 				},
@@ -290,7 +290,7 @@
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{url_user}}alpha1"
+						"url": "https://petstore.swagger.io/v2/user/alpha1"
 					},
 					"response": []
 				},
@@ -375,45 +375,45 @@
 	],
 	"variable": [
 		{
-			"id": "40f7cdaf-4375-41ea-bc1d-f5a67885c71b",
+			"id": "be3ee1b1-a53f-4235-b0b6-e05a42e6eb37",
 			"key": "users",
 			"value": "[{\"username\": \"flash\",\"name\": \"Barry Allen\",\"role\": \"Superhero\"},{\"username\": \"wonder_woman\",\"name\": \"Diana Prince\",\"role\":\"Superhero\"},{\"username\": \"batman\",\"name\": \"Bruce Wayne\",\"role\": \"Superhero\"}]"
 		},
 		{
-			"id": "9f56938a-cc18-43d5-aa9d-c1d65223f6e3",
+			"id": "37d1d4da-4bf0-4fdc-b94b-c2842abcdda9",
 			"key": "results",
 			"value": "[]",
 			"type": "string"
 		},
 		{
-			"id": "f09d70aa-7772-485c-869b-627e4e8d6843",
+			"id": "8a7bcc59-f8f2-4654-bc40-08ae37dcc125",
 			"key": "successAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "6226dcca-e956-4855-8895-0adaf7308fbc",
+			"id": "11f3ceea-1207-49b8-8dfd-2abe259c53d0",
 			"key": "failureAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "17f334e2-50a9-4d5e-aa12-c3a9517e943a",
+			"id": "a3149526-068e-4df8-a0ee-9ec72de41171",
 			"key": "idx",
 			"value": "0"
 		},
 		{
-			"id": "6f73be93-c9dd-41a7-b259-dca3dc1b2b3d",
+			"id": "6fab0ec2-a875-47a6-a433-5309cc4f940a",
 			"key": "username",
 			"value": ""
 		},
 		{
-			"id": "a98a3e57-080a-4692-bf3c-f7f07259247a",
+			"id": "e6eee33c-71d3-4e82-826a-74a77db3c057",
 			"key": "name",
 			"value": ""
 		},
 		{
-			"id": "9090d545-d2d0-4e1b-aba7-334fd2d6aeff",
+			"id": "11687c74-ce04-493c-8102-6ad9a62efe67",
 			"key": "role",
 			"value": ""
 		}
