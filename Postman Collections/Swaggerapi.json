@@ -212,7 +212,7 @@
 								}
 							}
 						},
-						"url": "{{url}}",
+						"url": "{{url_user}}",
 						"description": "If there was any failure in creating a user, this request reports the failed attempt."
 					},
 					"response": []
@@ -290,7 +290,7 @@
 						},
 						"method": "GET",
 						"header": [],
-						"url": "https://petstore.swagger.io/v2/user/alpha1"
+						"url": "{{url_user}}alpha1"
 					},
 					"response": []
 				},
@@ -375,45 +375,45 @@
 	],
 	"variable": [
 		{
-			"id": "69d1b1fe-6f37-4b0d-a636-d94880413c58",
+			"id": "24b791f2-36a6-44f5-a42e-6cfe6a120338",
 			"key": "users",
 			"value": "[{\"username\": \"flash\",\"name\": \"Barry Allen\",\"role\": \"Superhero\"},{\"username\": \"wonder_woman\",\"name\": \"Diana Prince\",\"role\":\"Superhero\"},{\"username\": \"batman\",\"name\": \"Bruce Wayne\",\"role\": \"Superhero\"}]"
 		},
 		{
-			"id": "8ea70e69-3e01-4cc0-aac4-859f0287aa45",
+			"id": "2743bf90-ce23-4d70-aabb-334cafc5db6a",
 			"key": "results",
 			"value": "[]",
 			"type": "string"
 		},
 		{
-			"id": "411f8f61-4f56-459d-9c58-1f80eea9b9b8",
+			"id": "3950d169-5b54-470f-b98b-5e1bce1a07c9",
 			"key": "successAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "91c80f62-d97c-4c5b-8f59-aebfe3441f2a",
+			"id": "c729a90d-d41b-426c-80f8-bbfb1cadaa34",
 			"key": "failureAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "8c2fa3a7-314e-493f-b7e9-9500280a4b93",
+			"id": "57e12e2d-8b9a-4426-b1ff-e5855e63d6da",
 			"key": "idx",
 			"value": "0"
 		},
 		{
-			"id": "917bddb7-b643-4652-bdd1-87ea7f7c70ee",
+			"id": "9032bacc-1f70-4a80-aac7-1131fa657b41",
 			"key": "username",
 			"value": ""
 		},
 		{
-			"id": "3071627a-8355-496f-ad58-0f5a20646082",
+			"id": "dd6794dd-4971-4b28-8761-482ec2314a1c",
 			"key": "name",
 			"value": ""
 		},
 		{
-			"id": "54afeea5-5289-4bcb-adc3-17a042002df0",
+			"id": "a7fc1e31-ae77-4ddb-accf-789ab95ad8af",
 			"key": "role",
 			"value": ""
 		}
