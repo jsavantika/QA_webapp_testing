@@ -11,19 +11,18 @@
 			"item": [
 				{
 					"name": "New Request",
-					"_postman_id": "b1c1c671-1af5-43ea-a023-adbbbe6deebf",
+					"id": "b1c1c671-1af5-43ea-a023-adbbbe6deebf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "GET",
-						"header": [],
-						"url": null
+						"header": []
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "8d072983-962b-4030-aede-7576c74f7ba8",
+			"id": "8d072983-962b-4030-aede-7576c74f7ba8",
 			"auth": {
 				"type": "apikey",
 				"apikey": {
@@ -53,6 +52,11 @@
 					}
 				}
 			]
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "2410b340-1792-498c-9540-6660590e3574"
 		},
 		{
 			"name": "Create users based on an array of data",
@@ -107,7 +111,7 @@
 					}
 				}
 			],
-			"_postman_id": "1ebd2495-0838-4a2b-bb70-b5fa39e7c447",
+			"id": "1ebd2495-0838-4a2b-bb70-b5fa39e7c447",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -171,7 +175,7 @@
 					}
 				}
 			],
-			"_postman_id": "885ec538-68d4-47e0-b1df-d21ff30cc164",
+			"id": "885ec538-68d4-47e0-b1df-d21ff30cc164",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -215,7 +219,7 @@
 					}
 				}
 			],
-			"_postman_id": "ac233b76-e8f8-4396-8e43-6eb18791691f",
+			"id": "ac233b76-e8f8-4396-8e43-6eb18791691f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -277,7 +281,7 @@
 					}
 				}
 			],
-			"_postman_id": "4539f1da-5b14-450a-a114-009a7a855552",
+			"id": "4539f1da-5b14-450a-a114-009a7a855552",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -311,7 +315,7 @@
 					}
 				}
 			],
-			"_postman_id": "27df2fa1-744f-4028-8d15-5fcb7cc777d3",
+			"id": "27df2fa1-744f-4028-8d15-5fcb7cc777d3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -370,52 +374,47 @@
 	],
 	"variable": [
 		{
-			"id": "eedaeb55-9da1-41ab-ad01-344a833369cd",
+			"id": "5e994c5e-7c0f-4986-8cec-d4f96135f689",
 			"key": "users",
-			"value": "[{\"username\": \"flash\",\"name\": \"Barry Allen\",\"role\": \"Superhero\"},{\"username\": \"wonder_woman\",\"name\": \"Diana Prince\",\"role\":\"Superhero\"},{\"username\": \"batman\",\"name\": \"Bruce Wayne\",\"role\": \"Superhero\"}]",
-			"type": "string"
+			"value": "[{\"username\": \"flash\",\"name\": \"Barry Allen\",\"role\": \"Superhero\"},{\"username\": \"wonder_woman\",\"name\": \"Diana Prince\",\"role\":\"Superhero\"},{\"username\": \"batman\",\"name\": \"Bruce Wayne\",\"role\": \"Superhero\"}]"
 		},
 		{
-			"id": "5596914b-8ee4-4648-8ea5-5b6c59f5bf76",
+			"id": "ef45f8bd-b7ae-4cef-975c-490ca07be515",
 			"key": "results",
 			"value": "[]",
 			"type": "string"
 		},
 		{
-			"id": "888e67af-2779-4861-ae91-04142f03a961",
+			"id": "e3cfcd62-cb38-48c3-b761-5bcbea5c1272",
 			"key": "successAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "574597c3-c739-417d-b99d-2421586ceac9",
+			"id": "385b172b-1fbd-4664-9557-a51ea6c89563",
 			"key": "failureAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "6c4579da-0b9d-44dc-af81-e39f18db115d",
+			"id": "e61c2ad8-9d23-4bd0-858e-2d5021e4a16d",
 			"key": "idx",
-			"value": "0",
-			"type": "string"
+			"value": "0"
 		},
 		{
-			"id": "aca9411a-33b8-40a8-a827-4355426641bb",
+			"id": "e2c36a65-b6d6-4202-b914-996188c38153",
 			"key": "username",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "d47658f6-a1e0-474a-bdc3-5270a0de6ae0",
+			"id": "33458955-6b3b-4789-833c-b671fe0d9903",
 			"key": "name",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "276f6827-4ab3-499d-b6b2-24c0e8f80e4e",
+			"id": "e5f56547-2f1c-4f44-a74b-82a41f5c803b",
 			"key": "role",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
