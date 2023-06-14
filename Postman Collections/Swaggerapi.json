@@ -10,14 +10,58 @@
 			"name": "Pet",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Get pet info",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "1a01330c-67b5-48fc-b21e-bcb19daf7bf8",
+								"exec": [
+									"// Access the string parameter\r",
+									"var text = pm.request.body.formdata.find((data) => data.key === 'petid').value;\r",
+									"\r",
+									"// Access the image file\r",
+									"var image = pm.request.body.formdata.find((data) => data.key === 'file').value;\r",
+									"\r",
+									"// Perform assertions or actions with the string parameter and image file\r",
+									"pm.test('Verify the status', function() {\r",
+									"  pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "b1c1c671-1af5-43ea-a023-adbbbe6deebf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"auth": {
+							"type": "apikey",
+							"apikey": {
+								"value": "special-key",
+								"key": "api-key"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "petid",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/E:/phone backup/DCIM/Camera/PXL_20220531_183051517.MP.jpg"
+								}
+							]
+						},
+						"url": "{{url_pet}}0/uploadimage"
 					},
 					"response": []
 				}
@@ -256,7 +300,7 @@
 								}
 							}
 						},
-						"url": "{{url}}alpha1"
+						"url": "{{url_user}}alpha1"
 					},
 					"response": []
 				},
@@ -375,45 +419,45 @@
 	],
 	"variable": [
 		{
-			"id": "24b791f2-36a6-44f5-a42e-6cfe6a120338",
+			"id": "1959d15b-9416-4f93-a2f9-0a4ab2165d36",
 			"key": "users",
 			"value": "[{\"username\": \"flash\",\"name\": \"Barry Allen\",\"role\": \"Superhero\"},{\"username\": \"wonder_woman\",\"name\": \"Diana Prince\",\"role\":\"Superhero\"},{\"username\": \"batman\",\"name\": \"Bruce Wayne\",\"role\": \"Superhero\"}]"
 		},
 		{
-			"id": "2743bf90-ce23-4d70-aabb-334cafc5db6a",
+			"id": "ab1bccbc-f45d-4790-a77f-c08e35cf027f",
 			"key": "results",
 			"value": "[]",
 			"type": "string"
 		},
 		{
-			"id": "3950d169-5b54-470f-b98b-5e1bce1a07c9",
+			"id": "42cb1f4b-09dd-425e-9040-64c77797d88f",
 			"key": "successAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "c729a90d-d41b-426c-80f8-bbfb1cadaa34",
+			"id": "2362ae55-44b5-4413-92dd-6ebda868c6b3",
 			"key": "failureAPIUrl",
 			"value": "https://postman-echo.com/post",
 			"type": "string"
 		},
 		{
-			"id": "57e12e2d-8b9a-4426-b1ff-e5855e63d6da",
+			"id": "bc802dac-52e7-4f2a-8717-6bb7b9db6304",
 			"key": "idx",
 			"value": "0"
 		},
 		{
-			"id": "9032bacc-1f70-4a80-aac7-1131fa657b41",
+			"id": "47b4ceac-be0a-4c4e-b694-b91b561c176c",
 			"key": "username",
 			"value": ""
 		},
 		{
-			"id": "dd6794dd-4971-4b28-8761-482ec2314a1c",
+			"id": "a27c0b1f-4d75-4899-85a4-067ed16a751e",
 			"key": "name",
 			"value": ""
 		},
 		{
-			"id": "a7fc1e31-ae77-4ddb-accf-789ab95ad8af",
+			"id": "e7f1daf1-0983-4edb-baf2-f7ae7ad7b4d8",
 			"key": "role",
 			"value": ""
 		}
