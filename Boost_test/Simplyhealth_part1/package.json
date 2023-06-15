@@ -1,0 +1,16 @@
+{
+  name cypress-example,
+  version 1.0.0,
+  main index.js,
+  scripts {
+    cyopenmob cypress open --e2e --browser=chrome --env device=mob,
+    cyopenweb cypress open --e2e --browser=chrome --env device=web,
+    cyrunmob cypress run --browser=chrome --env device=mob,
+    cyrunweb cypress run --env device=web,
+    cyci cypress run --env device=web --record --parallel --browser chrome --headless
+  },
+  devDependencies {
+    cypress ^12.8.1,
+    eslint ^7.23.0
+  }
+}
