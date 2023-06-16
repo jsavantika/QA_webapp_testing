@@ -1,7 +1,7 @@
 import login from '../selectors/login.sel'
 
 describe('login user', () => {
-  beforeEach(() => {
+  before(() => {
     cy.visit('/member-portal');
   });
   it('users should go to my account to sign in', () => {

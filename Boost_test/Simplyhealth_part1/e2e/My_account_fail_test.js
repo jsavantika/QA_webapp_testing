@@ -1,7 +1,7 @@
 import login from '../selectors/myaccount.sel'
 
 describe('login functionality', () => {
-  beforeEach(() => {
+  before(() => {
     cy.visit('/member-portal');
   });
 //incorrect login 

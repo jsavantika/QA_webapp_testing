@@ -1,7 +1,7 @@
 import login from '../selectors/register.sel'
 
 describe('register new user', () => {
-  beforeEach(() => {
+  before(() => {
     cy.visit('/member-portal');
   });
  
